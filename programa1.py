@@ -1,4 +1,5 @@
-def contar_frecuencia(cadena):
+def contar_frecuencia(cadena): 
+    # Asumiendo que la cadena de entrada no tiene caracteres especiales
     cont_freq = {}
     for palabra in cadena.split(' '):
         if cont_freq.get(palabra):
